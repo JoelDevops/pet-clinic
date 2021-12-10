@@ -21,6 +21,8 @@ pipeline {
             }
         }
         
+        
+        
         stage('Create and Publish Docker Image'){
             agent any
             steps{
